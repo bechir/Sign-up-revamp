@@ -15,8 +15,8 @@
     <title>Sign in to Dribbble</title>
   </head>
   <body>
-  	<div class="warpper p-5">
-  		<div class="card shadow-lg mb-5 mt-4 mx-3 border-0">
+  	<div class="warpper py-5 px-sm-5">
+  		<div class="card shadow-lg mb-5 mt-4 mx-sm-3 border-0">
 	  		<div class="row h-100">
 	  			<div class="col-sm-4">
 	  				<div class="left rounded-left h-100 d-flex justify-content-between flex-column align-items-center">
