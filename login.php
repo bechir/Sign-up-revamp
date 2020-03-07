@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous" />
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap&text=dribbble" rel="stylesheet">
 
-    <title>Sign up to Dribbble</title>
+    <title>Sign in to Dribbble</title>
   </head>
   <body>
   	<div class="warpper p-5">
@@ -31,15 +32,15 @@
 	  			</div>
 	  			<div class="col-sm-8">
 	  				<div class="row mx-0 pr-3">
-	  					<p class="w-100 mt-3 text-right small">Already a member? <a href="login.html">Sign in</a></p>
+	  					<p class="w-100 mt-3 text-right small">Not a member? <a href="index.php">Sign up</a></p>
 	  				</div>
 	  				<div class="row mx-0">
 	  					<div class="form mx-auto px-3">
-	  						<h1>Sign up to Dribbble</h1>
+	  						<h1>Sign in to Dribbble</h1>
 	  						<div class="btn-group d-flex">
-		  						<a href="" class="btn btn-primary rounded mr-1">
+		  						<a href="" class="btn btn-primary px-4 rounded mr-1">
 		  							<i class="fab fa-google mr-4"></i>
-		  							Sign up with Google
+		  							Sign in with Google
 		  						</a>
 	  							<a href="" class="btn social-btn mx-1">
 	  								<i class="fab fa-twitter"></i>
@@ -57,32 +58,22 @@
 	  						<form method="POST">
 	  							<div class="row">
 								    <div class="col">
-										<label>Full Name</label>
-										<input type="text" name="fullname" class="form-control">
-								    </div>
-								    <div class="col">
-								    	<label>Username</label>
+								    	<label>Username or email address</label>
 								    	<input type="text" name="username" class="form-control">
 								    </div>
 								</div>
 	  							<div class="row mt-3">
 								    <div class="col">
-										<label>Email Address</label>
-										<input type="email" name="email" class="form-control">
-								    </div>
-								</div>
-	  							<div class="row mt-3">
-								    <div class="col">
 										<label>Password</label>
-										<input type="password" name="password" class="form-control" placeholder="+6 characters">
+										<input type="password" name="password" class="form-control">
 								    </div>
 								</div>
 								<div class="custom-control custom-checkbox mt-3">
-								    <input type="checkbox" class="custom-control-input" id="customControlValidation1" required>
-								    <label class="cusor-pointer text-muted small custom-control-label" for="customControlValidation1">
-								    	Creating an account means you're okay with or <a href="">Terms of Service</a>, <a href="">Privacy Policy</a>, and our default <a href="">Notification Settings</a>.</label>
+								    <input type="checkbox" class="custom-control-input" id="customControlValidation1">
+								    <label class="cusor-pointer pt-1 text-muted small custom-control-label" for="customControlValidation1">
+								    Remember me</label>
 								</div>
-								<button type="submit" class="btn mt-3 btn-submit">Create account</button>
+								<button type="submit" class="btn mt-3 btn-submit">Sign in</button>
 
 								<div class="mt-5">
 									<p class="py-2 small text-muted">This site is protected by reCAPTCHA and the Google <a href="">Privacy Policy</a> and <a href="">Terms of Service</a> apply.</p>
