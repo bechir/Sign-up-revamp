@@ -33,8 +33,8 @@
   <body>
   	<div class="warpper py-sm-5 px-sm-5">
   		<div class="card shadow-lg mb-5 mt-sm-4 mx-sm-3 border-0">
-	  		<div class="row h-100">
-	  			<div class="col-sm-4">
+	  		<div class="row h-100 mx-0">
+	  			<div class="col-sm-4 px-0">
 	  				<div class="left rounded-left h-100 d-flex justify-content-between flex-column align-items-center">
 	  					<div class="top mx-4 mt-4">
 	  						<p class="dribbble">dribbble</p>
