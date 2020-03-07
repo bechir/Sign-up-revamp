@@ -1,3 +1,23 @@
+<?php
+	session_start();
+
+	if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+
+		require_once 'auth.php';
+
+		$username = $_POST['username'];
+		$password = $_POST['password'];
+
+		if($user = login($username, $username)) {
+			$_SESSION['user'] = $user;
+			header('Location: /dashaboard.php');
+		} else {
+			header('Location: ' . $_SERVER['PHP_SELF']);
+		};
+	}
+
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
   <head>
